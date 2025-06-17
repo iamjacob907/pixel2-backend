@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: pixel2-backend
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python main.py
-    envVars:
-      - key: REPLICATE_API_TOKEN
-        value: r8_ePVbRMOU6V9IuOa8GJiZtZN9dsrCT743sgcFD
